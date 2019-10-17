@@ -1,5 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
 <script>
     $(document).ready(function() {
         $("#txtCPF").mask('000.000.000-00', {
@@ -11,8 +9,8 @@
         $("#txtCEP").mask('00000-00', {
             reverse: true
         });
-        
-        
+
+
     });
 </script>
 
@@ -22,13 +20,14 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
+                <h3 class="text-center"><span class="glyphicon glyphicon-th-list"></span> <b>Novo Item </b></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <h3><span class="glyphicon glyphicon-th-list"></span> <b>Novo Item </b></h3>
+
             </div>
             <div class="modal-body">
-            
+
                 <form action="../controller/adiciona-clientes.php" method="POST">
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -77,8 +76,7 @@
                                 <option>Mato Grosso do Sul</option>
                             </select>
                         </div>
-                    </div>
-                    <div class="form-row">
+
                         <div class="form-group col-md-4">
                             <label for="inputEstado">Estado</label>
                             <select name="optEstado" class="form-control">
@@ -92,16 +90,17 @@
                                 <option>MS</option>
                             </select>
                         </div>
-                    </div>
-                    <div class="form-group col-md-3">
-                        <label for="inputCEP">CEP</label>
-                        <input type="text" class="form-control"  id="txtCEP" name="txtCEP">
+
+                        <div class="form-group col-md-4">
+                            <label for="inputCEP">CEP</label>
+                            <input type="text" class="form-control" id="txtCEP" name="txtCEP">
+                        </div>
                     </div>
                     <br>
-                    <div class="form-group text-center ">
+                    <div class="modal-footer form-group text-center ">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
                         <button type="submit" class="btn btn-success btn-sm">Salvar</button>
-                   </div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -158,7 +157,7 @@
                             <label for="inputEmail4">Nome Completo</label>
                             <input type="text" class="form-control" name="txtNome" placeholder="" value="<?= $cli->nome ?>">
                         </div>
-                        
+
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -215,14 +214,14 @@
                     </div>
                     <div class="form-group col-md-3">
                         <label for="inputCEP">CEP</label>
-                        <input type="text" class="form-control"  id="txtCEP" name="txtCEP" value="<?= $cli->cep ?>">
+                        <input type="text" class="form-control" id="txtCEP" name="txtCEP" value="<?= $cli->cep ?>">
                     </div>
                     <br>
                     <div class="form-group text-center ">
-                        <input type="hidden" name="txtID" value ="<?= $cli->id ?>">
+                        <input type="hidden" name="txtID" value="<?= $cli->id ?>">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
                         <button type="submit" class="btn btn-success btn-sm">Salvar Mudanças</button>
-                   </div>
+                    </div>
                 </form>
             </div>
         </div>

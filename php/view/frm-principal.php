@@ -4,7 +4,7 @@ include_once('header.php');
 
 ?>
 <link href="/projeto_solman/css/style-principal.css" rel="stylesheet">
-<div class=" page-header">
+<div class=" container">
     <div class="how-section1">
         <div class="row">
             <div class="jumbotron col-md-6 how-img">

@@ -16,7 +16,7 @@
 
     }else{
         $msg = "<div class='formContent alert alert-danger text-center' role='alert'><b><i> Usuário </i></b> ou <b><i>senha</i></b> não correspondem !</div>";
-        header('location: http://localhost/projeto_solman?msg='.$msg);
+        header('location: http://localhost/solman?msg='.$msg);
        
     }
 ?>

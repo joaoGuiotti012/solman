@@ -7,11 +7,10 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-
+                <h3><span class="glyphicon glyphicon-th-list"></span> <b> Editar Item </b></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <h3><span class="glyphicon glyphicon-th-list"></span> <b> Editar Item </b></h3>
             </div>
             <div class="modal-body">
                 <div class="page-header">
@@ -54,13 +53,11 @@
                                     <option> Bicicleta </option>
                                 </select>
                             </div>
-                            <div class="form-group col-md-3">
+                            <div class="form-group col-md-4">
                                 <label for="inputZip">Valor</label>
                                 <input type="number" step="0.01" class="form-control" name="txtValor" value="<?= $produto->valorUN ?>">
                             </div>
-
                         </div>
-
                 </div>
             </div>
             <div class="modal-footer">
@@ -109,10 +106,10 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
+                <h3><span class="glyphicon glyphicon-th-list"></span> <b>Novo Item </b></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                     <span aria-hidden="true">&times;</span>
                 </button>
-                <h3><span class="glyphicon glyphicon-th-list"></span> <b>Novo Item </b></h3>
             </div>
             <div class="modal-body">
                 <form action="../controller/adiciona-produtos.php" method="POST">
@@ -149,25 +146,15 @@
                                 <option> Bicicleta </option>
                             </select>
                         </div>
-                        <div class="form-group col-md-2">
+                        <div class="form-group col-md-3">
                             <label for="inputZip">Valor</label>
                             <input type="number" step="0.01" class="form-control" name="txtValor">
                         </div>
                     </div>
-
-                    <!--div class="row">
-                        <div class="form-group col-md-4">
-                            <label for="inputPassword4">Upload Arquivo </label>
-                            <input type="file" class="form-control" name="arquivo" placeholder="file">
-                        </div>
-                    </div-->
-
                     <button type="reset" class="btn btn-warning btn-sm">Clear <i class="fas fa-eraser"></i></button>
-
-
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Não</button>
                 <button type="submit" class="btn btn-success btn-sm">Salvar</button>
             </div>
             </form>

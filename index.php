@@ -15,26 +15,27 @@
       <!--h1 class="title-login text-center">Aditya News</h1-->
     </div>
     <form class="form-group" action="php/controller/logar-usuarios.php" method="POST">
-      <div class="form-group">
+      <div class="form-group text-center">
         <label for="exampleInputEmail1" class="text-uppercase">Username</label>
         <input type="text" class="form-control" name="user" placeholder="">
       </div>
-      <div class="form-group">
+      <div class="form-group text-center .bg-white">
         <label for="exampleInputPassword1" class="text-uppercase">Password</label>
         <input type="password" class="form-control" name="password" placeholder="">
-        <br>
-        <label class="form-check-label">
-          <input type="checkbox" class="form-check-input">
-          <small>Remember Me</small>
-        </label>
       </div>
-      <button type="submit" class="btn btn-primary">Logar</button>
-      <br><br>
+
+      <div class="container text-center">
+
+        <button type="submit" class="col-md-3 btn btn-success btn-sms">Logar</button>
+      </div>
+      <br>
+      <div class="container-fluid">
+        <?php if (isset($_GET['msg'])) {
+          echo $_GET['msg'];
+        } ?>
+      </div>
+      <br>
     </form>
   </div> <br>
-  <?php
-    if (isset($_GET['msg'])) {
-      echo $_GET['msg'];
-    }
-    ?>
+
 </div>

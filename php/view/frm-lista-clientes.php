@@ -7,12 +7,12 @@ $pdo = Banco::Conectar();
 $clientes = selectByOrderNome($pdo);
 
 ?>
-<div class="page-header">
+<div class="container">
 
 <?php if(isset($_GET['msg'])){echo $_GET['msg'];}?>
     <h3><span class="glyphicon glyphicon-th-list"></span> <b> Listagem </b></h3>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalNew"> New Item <i class="fas fa-plus-circle"></i></button>
-    <table class="table table-striped table-dark table-bordered table-hover ">
+    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalNew"> New Item <i class="fas fa-plus-circle"></i></button>
+    <table class="table-responsive table-striped  table-bordered table-hover ">
         <thead>
             <th class="text-center"><i class="fas fa-user-alt">#</i></th>
             <th class="text-center">Nome</th>
@@ -28,7 +28,7 @@ $clientes = selectByOrderNome($pdo);
             <th class="text-center"><i class="fas fa-backspace"></i></th>
         </thead>
         <?php foreach ($clientes as $cli) : ?>
-            <tr class="lista-chamados">
+            <tr>
                 <th class="text-center"><?php echo $cli->id ?></th>
                 <td class="text-center"><?php echo $cli->nome ?></td>
                 <td class="text-center"><?php echo $cli->email ?></td>
