@@ -1,0 +1,12 @@
+body {
+    /*background:url("../img/fundo-burguesa.jpg") fixed;*/
+    background-size: cover;
+}
+
+.minicon {
+    width: 15%;
+}
+
+.padd {
+    padding: 30px 60px;
+}
