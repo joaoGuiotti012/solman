@@ -88,15 +88,16 @@
                     $valorTotal += $Total;
                 endforeach; ?>
             </table>
-            <div class="row div-contagem">
-                <h5> <b class="text-danger">Contagem: </b> <?= $contagem ?> </h5>
+            <div class=" div-contagem">
+                <br>
+                <h5> <b class="text-danger">Contagem: </b> <?= $contagem ?> </h5> 
                 <h5> <b class="text-success">Total R$: </b> <?= number_format($valorTotal, 2, ',', '.') ?> </h5>
             </div>
         </div>
         <div class="container">
             <br>
             <h3 id="ancPagos"><i class="text-success fas fa-money-check-alt"></i> <b> Itens Pagos </b></h3><br>
-            <table class="table-responsive table-striped table-bordered table-hover ">
+            <table class="table table-striped table-bordered table-hover ">
                 <thead class="thead-black">
                     <th class="text-center">#<i class="fas fa-user-alt"></i></th>
                     <th class="text-center">Cliente</th>

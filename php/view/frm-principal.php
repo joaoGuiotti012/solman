@@ -3,7 +3,10 @@ include_once("../model/banco.php");
 include_once('header.php');
 
 ?>
-<link href="/projeto_solman/css/style-principal.css" rel="stylesheet">
+<link href="/solman/css/style-principal.css" rel="stylesheet">
+<div class="banner">
+
+</div>
 <div class=" container">
     <div class="how-section1">
         <div class="row">

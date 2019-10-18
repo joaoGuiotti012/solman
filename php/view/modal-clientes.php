@@ -1,18 +1,4 @@
-<script>
-    $(document).ready(function() {
-        $("#txtCPF").mask('000.000.000-00', {
-            reverse: true
-        });
-        $("#txtFone").mask('(00)00000-0000', {
-            reverse: true
-        });
-        $("#txtCEP").mask('00000-00', {
-            reverse: true
-        });
 
-
-    });
-</script>
 
 
 
