@@ -9,6 +9,6 @@ $id = $_GET['id'];
 
 removeCli($pdo, $id);
 
- header( "location: http://localhost/projeto_solman/php/view/frm-lista-clientes.php");
+ header( "location: http://localhost/solman/php/view/frm-lista-clientes.php");
 
 ?>

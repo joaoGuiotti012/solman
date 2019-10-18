@@ -1,7 +1,7 @@
                     .banner {
                         position: relative;
                         margin-top: -75px;
-                        background-image: url('../img/fundo-burguesa.jpg');
+                        background-image: url('../img/fundo-top.jpg');
                         background-attachment: fixed;
                         background-position: center;
                         width: 100%;
@@ -11,9 +11,38 @@
                     
                     .nav-menu {
                         height: 75px;
-                        background-color: white;
+                        background: #00000085;
                     }
                     
-                    .nav-menu li {
-                        font-size: 20px;
+                    .nav-menu li a {
+                        font-weight: bold;
+                        font-size: 24px;
+                        color: white;
+                    }
+                    
+                    .sobre-nos {
+                        background-image: url('../img/fundo-top.jpg');
+                        background-attachment: fixed;
+                        background-position: center;
+                        width: 100%;
+                        height: 400px;
+                        z-index: -1;
+                        background-color: rgba(0, 0, 0, .6);
+                    }
+                    
+                    .sobre-nos hr {
+                        width: 13%;
+                        background: #d52525;
+                        height: 8px;
+                    }
+                    
+                    .sobre-nos h3 {
+                        color: white;
+                        font-size: 45px;
+                    }
+                    
+                    .sobre-nos span p {
+                        padding: 10px 230px;
+                        color: white;
+                        font-size: 18px;
                     }

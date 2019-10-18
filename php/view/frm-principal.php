@@ -58,6 +58,16 @@ include_once('header.php');
             </div>
         </div>
     </div>
+
+
+</div>
+<div id="ancSobreNos" class="sobre-nos">
+    <br> <br>
+    <h3 class="text-center"> <b>Sobre Nós</b>  </h3>
+    <hr>
+    <span class="text-center">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dicta totam dolore vitae enim assumenda deleniti culpa harum, fuga ullam amet voluptas, reprehenderit quasi? Perferendis ipsum amet voluptate veritatis ut.</p>    
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores omnis quas, ipsam repudiandae beatae sed, eveniet dolore, laboriosam veniam ea delectus odio sapiente totam. Vitae at magni laudantium suscipit porro?</p></span>
 </div>
 <?php
 include_once('footer.php');

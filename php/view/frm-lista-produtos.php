@@ -10,10 +10,12 @@ $produtos = selectOrderByID($pdo);
 
 
 <div class="container ">
-    <h3><span class="glyphicon glyphicon-th-list"></span> <b> Listagem </b></h3>
-
+    <br><br>
+    <h3><span><i class="fas fa-list"></i></span> <b> Listagem </b></h3>
+    <br>    
     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modalNew"> New Item <i class="fas fa-plus-circle"></i></button>
     <button type="button" class="btn btn-primary btn-sm" id="bscNome" name="bscNome" onclick="javascript: location.href = 'frm-lista-produtos.php?nome'"> busca por nome</button>
+    
     <table class="table table-striped table-bordered table-hover ">
         <thead>
             <th class="text-center">#<i class="fas fa-user-alt"></i></th>

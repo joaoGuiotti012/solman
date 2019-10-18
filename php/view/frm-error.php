@@ -16,7 +16,7 @@ body {
             <div class="col-md-12 text-center">
                 <span class="display-1 d-block">404</span>
                 <div class="mb-4 lead">The page you are looking for was not found.</div>
-                <a href="http://localhost/projeto_solman/php/view/frm-principal.php" class="btn btn-link">Back to Home</a>
+                <a href="http://localhost/solman/php/view/frm-principal.php" class="btn btn-link">Back to Home</a>
             </div>
         </div>
     </div>

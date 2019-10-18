@@ -27,4 +27,4 @@ if( !empty($fone) && !empty($cpf) && !empty($end) && !empty($comp) && !empty($em
     }
 }else{$msg = '<div class="alert alert-danger" ><h5> <b> PREENCHIMENTO OBRIGATÓRIO </b><h5>Preencha todos os campos obrigatórios deste cadastro !</div>';}
 
-header("location: http://localhost/projeto_solman/php/view/frm-lista-clientes.php?msg=".$msg);
+header("location: http://localhost/solman/php/view/frm-lista-clientes.php?msg=".$msg);

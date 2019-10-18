@@ -35,26 +35,26 @@ if (isset($_GET['deslogar'])) {
 
   <ul class="nav justify-content-center nav-menu">
     <li class="nav-item">
-      <a class="nav-link active" href="http://localhost/solman/php/view/frm-principal.php">Home</a>
+      <a class="nav-link" href="http://localhost/solman/php/view/frm-principal.php">Home</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Controle</a>
-      <div class="dropdown-menu">
+      <div class="dropdown-menu bg-dark" >
         <a class="dropdown-item" href="http://localhost/solman/php/view/frm-lista-produtos.php">Produtos</a>
         <a class="dropdown-item" href="http://localhost/solman/php/view/frm-lista-clientes.php">Clientes</a>
-        <a class="dropdown-item" href="#">Usuários</a>
+        <a class="dropdown-item" hidden href="#">Usuários</a>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="http://localhost/solman/php/view/frm-lista-vendas.php">Vendas</a>
+        <a class="dropdown-item " href="http://localhost/solman/php/view/frm-lista-vendas.php">Vendas</a>
       </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#ancSobreNos">Sobre nos</a>
+      <a class="nav-link" href="http://localhost/solman/php/view/frm-principal.php#ancSobreNos">Sobre nos</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="http://localhost/solman/php/view/frm-loja.php">Loja</a>
+    <li class="nav-item " >
+      <a class="nav-link " href="http://localhost/solman/php/view/frm-error.php">Loja</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link disabled" href="?deslogar=">Login-out</a>
+      <a class="nav-link text-white " href="?deslogar="><i class="fas fa-sign-out-alt"></i></a>
     </li>
   </ul>
