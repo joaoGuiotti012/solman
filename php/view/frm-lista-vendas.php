@@ -25,7 +25,7 @@
         </style>
         <div class="container">
 
-
+            <br><br>
             <?php
             if (isset($_GET['msg'])) {
                 echo $_GET['msg'];

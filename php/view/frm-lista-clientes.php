@@ -8,7 +8,7 @@ $clientes = selectByOrderNome($pdo);
 
 ?>
 <div class="container">
-
+<br><br>
 <?php if(isset($_GET['msg'])){echo $_GET['msg'];}?>
 <br><br>
     <h3><span><i class="fas fa-list"></i></span> <b> Listagem </b></h3>

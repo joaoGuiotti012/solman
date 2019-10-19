@@ -10,7 +10,7 @@ $id = $_GET['id'];
 
 if( remVenda($pdo,$id) > 0){
     //subEstoque($pdo, $id,$quantidade );//volta a quantidade de estoque cancelado na venda
-    $msg = '<div class="alert alert-success" ><h5> <b> Removido com sucesso !<b><h5> Venda de cod: '.$id.'</div>';
+    $msg = '<div class="alert alert-success" ><h5> <b> Removido com sucesso !</b><h5> Venda de cod: '.$id.'</div>';
 } else
 {
     $msg = '<div class="alert alert-danger" > Falha ao remover esta Venda !</div>';
