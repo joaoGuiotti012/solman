@@ -29,11 +29,11 @@
         <button type="submit" class="col-md-3 btn btn-success btn-sms">Logar</button>
       </div>
       <br>
-      <div class="container-fluid">
+      
         <?php if (isset($_GET['msg'])) {
           echo $_GET['msg'];
         } ?>
-      </div>
+     
       <br>
     </form>
   </div> <br>
