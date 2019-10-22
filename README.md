@@ -1,5 +1,8 @@
 Repositório base projeto solman - GitHub
 email de contato: joao_otavioguiotti@hotmail.com
+                : alissonrichardy@hotmail.com
+                
+ JOAO GUIOTTI E ALLISON ZUBCOVI
 
 Usuario e senha de acesso.
 

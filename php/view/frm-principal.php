@@ -3,7 +3,24 @@ include_once("../model/banco.php");
 include_once('header.php');
 
 ?>
+
+
+<style>
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    width: 500px;
+}
+</style>
+
 <link href="/solman/css/style-principal.css" rel="stylesheet">
+<link href="/solman/css/jlplayer.css" rel="stylesheet">
+<link href="/solman/js/jlplayer.js" rel="stylesheet">
 <div class="banner">
 
 </div>
@@ -73,6 +90,10 @@ include_once('header.php');
         </span>
     </div>
 </div>
+
+
+    
+
 <?php
 include_once('footer.php');
 
